@@ -1,4 +1,4 @@
-<script type="module" src="/src/main.js"></script>
+import '../style.css';
 const WHATSAPP_NUMBER = '509XXXXXXXX';
 const app = document.querySelector('#app');
 
