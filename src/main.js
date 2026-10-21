@@ -1,4 +1,4 @@
-import '../style.css
+ import '../style.css';.
 const WHATSAPP_NUMBER = '509XXXXXXXX';
 const app = document.querySelector('#app');
 
