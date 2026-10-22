@@ -2,11 +2,12 @@ import { resolve } from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  plugins: [],
   build: {
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        admin: resolve(__dirname, 'src/admin.html'), // oswa 'admin.html' si l nan rasin lan
+        admin: resolve(__dirname, 'src/admin.html'),
       },
     },
   },
